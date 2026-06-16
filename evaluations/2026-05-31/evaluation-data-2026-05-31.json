@@ -1,0 +1,32 @@
+{
+  "run_date": "2026-05-31",
+  "source_report": "evaluation-report-2026-05-31.md",
+  "config": { "model": "claude-opus-4-7", "effort": "xHigh", "mode": "Manual" },
+  "tools": ["Kiro IDE", "Kiro CLI", "Claude Code"],
+  "evaluations": [
+    { "id": "GF-1", "type": "generation_followup", "summary": "Greenfield build: produce a fresh, spec-bound CLI to-do app from scratch" },
+    { "id": "CA-1", "type": "code_analysis", "summary": "Brownfield analysis: read an existing TypeScript API and explain architecture, pricing, and state machine" },
+    { "id": "CA-2", "type": "code_analysis", "summary": "Brownfield investigation: pinpoint which check rejects a specific request and what response it returns" }
+  ],
+  "fields": {
+    "evaluation_id": "GF-1 | CA-1 | CA-2",
+    "tool": "Coding tool under test",
+    "credits_used": "Vendor credits (Kiro tools); null for Claude Code",
+    "cost_per_credit_usd": "USD per credit (Kiro = 0.02); null when N/A",
+    "cost_usd": "Total run cost in USD",
+    "elapsed_seconds": "Wall-clock duration in seconds",
+    "lines_produced": "Output lines (code for GF-1, analysis doc for CA-*)",
+    "input_tokens|output_tokens": "Claude Code only"
+  },
+  "results": [
+    { "evaluation_id": "GF-1", "tool": "Kiro IDE",    "credits_used": 2.25, "cost_per_credit_usd": 0.02, "cost_usd": 0.045,  "elapsed_seconds": 61,  "lines_produced": 195, "input_tokens": null, "output_tokens": null },
+    { "evaluation_id": "GF-1", "tool": "Kiro CLI",    "credits_used": 1.21, "cost_per_credit_usd": 0.02, "cost_usd": 0.0242, "elapsed_seconds": 36,  "lines_produced": 195, "input_tokens": null, "output_tokens": null },
+    { "evaluation_id": "GF-1", "tool": "Claude Code", "credits_used": null, "cost_per_credit_usd": null, "cost_usd": 0.2331, "elapsed_seconds": 80,  "lines_produced": 163, "input_tokens": 828, "output_tokens": 3000 },
+    { "evaluation_id": "CA-1", "tool": "Kiro IDE",    "credits_used": 3.42, "cost_per_credit_usd": 0.02, "cost_usd": 0.0684, "elapsed_seconds": 108, "lines_produced": 155, "input_tokens": null, "output_tokens": null },
+    { "evaluation_id": "CA-1", "tool": "Kiro CLI",    "credits_used": 9.38, "cost_per_credit_usd": 0.02, "cost_usd": 0.1876, "elapsed_seconds": 242, "lines_produced": 206, "input_tokens": null, "output_tokens": null },
+    { "evaluation_id": "CA-1", "tool": "Claude Code", "credits_used": null, "cost_per_credit_usd": null, "cost_usd": 1.06,   "elapsed_seconds": 195, "lines_produced": 156, "input_tokens": 683, "output_tokens": 12300 },
+    { "evaluation_id": "CA-2", "tool": "Kiro IDE",    "credits_used": 2.48, "cost_per_credit_usd": 0.02, "cost_usd": 0.0496, "elapsed_seconds": 65,  "lines_produced": 149, "input_tokens": null, "output_tokens": null },
+    { "evaluation_id": "CA-2", "tool": "Kiro CLI",    "credits_used": 3.51, "cost_per_credit_usd": 0.02, "cost_usd": 0.0702, "elapsed_seconds": 74,  "lines_produced": 144, "input_tokens": null, "output_tokens": null },
+    { "evaluation_id": "CA-2", "tool": "Claude Code", "credits_used": null, "cost_per_credit_usd": null, "cost_usd": 0.51,   "elapsed_seconds": 139, "lines_produced": 65,  "input_tokens": 606, "output_tokens": 4200 }
+  ]
+}

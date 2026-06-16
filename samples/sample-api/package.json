@@ -1,0 +1,29 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "description": "A layered TypeScript order-management REST API used as a benchmark fixture for AI dev tools.",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "benchmark",
+    "express",
+    "typescript",
+    "rest-api"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
