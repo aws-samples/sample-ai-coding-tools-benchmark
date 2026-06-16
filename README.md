@@ -14,7 +14,7 @@ through each tool and measure how they stack up on **cost**, **speed**, and
 - **CA-1** — Brownfield analysis: read an existing TypeScript API and explain architecture, pricing, and state machine.
 - **CA-2** — Brownfield investigation: pinpoint which check rejects a specific request and what response it returns.
 
-![Results visualization](./docs/results-visualization.png)
+![Results visualization](./docs/report-graph.png)
 
 | Prompt | Tool | Model | Effort | Credits Used | Cost (USD) | Time (s) | Lines Generated | Input Tokens | Output Tokens | Cached Tokens |
 | ------ | ---- | ----- | ------ | ------- | ---------- | -------- | --------------- | ------------ | ------------- | ------------- |
