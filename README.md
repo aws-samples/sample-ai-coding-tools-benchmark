@@ -34,7 +34,7 @@ through each tool and measure how they stack up on **cost**, **speed**, and
 > Assumptions:
 > Kiro costs derived from credits used at $0.02/credit.
 > Claude Code cost is the reported run cost in /usage command. 
-> Codex CLI cost is an API-equivalent pay-per-use pricing on https://developers.openai.com/api/docs/pricing.
+> Codex CLI cost is an API-equivalent pay-per-use pricing on OpenAI.
 
 ### Attached reports
 - [`evaluations/2026-05-31/evaluation-report-2026-05-31.md`](./evaluations/2026-05-31/evaluation-report-2026-05-31.md)
