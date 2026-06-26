@@ -4,10 +4,6 @@ A side-by-side comparison of popular AI coding tools. We run the same prompts
 through each tool and measure how they stack up on **cost**, **speed**, and
 **correctness**.
 
-## Latest Report
-
-- Run date: **2026-06-25** (Kiro IDE, Kiro CLI, Claude Code on Bedrock, Codex on Bedrock)
-
 ### Evaluated Scenarios
 - **GF-1** — Greenfield build: produce a fresh, spec-bound CLI to-do app from scratch.
 - **CA-1** — Brownfield analysis: read an existing TypeScript API and explain architecture, pricing, and state machine.
