@@ -1,5 +1,8 @@
 # Sample AI Coding Tools Benchmark
 
+> [!IMPORTANT]
+> **This repository is no longer maintained.** For current development, please use the successor repository: [aws-samples/sample-agent-cost-bench](https://github.com/aws-samples/sample-agent-cost-bench).
+
 A side-by-side comparison of popular AI coding tools. We run the same prompts
 through each tool and measure how they stack up on **cost**, **speed**, and
 **correctness**.
